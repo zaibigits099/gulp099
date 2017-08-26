@@ -1,0 +1,22 @@
+@import "_vars";
+
+.box-section .box{
+	padding: 10px;
+	background-color: #FC9B13;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.margin-center{
+	margin: 0 auto;
+}
+
+.box-section{
+	width: $page-width;
+	@extend .margin-center;
+}
+.box-section .box{
+	width: $page-width;
+	display: inline-block;
+}

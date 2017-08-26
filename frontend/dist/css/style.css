@@ -1,0 +1,16 @@
+.box-section .box {
+  padding: 10px;
+  background-color: #FC9B13;
+  color: white;
+  font-weight: bold;
+  font-size: 16px; }
+
+.margin-center, .box-section {
+  margin: 0 auto; }
+
+.box-section {
+  width: 1160px; }
+
+.box-section .box {
+  width: 1160px;
+  display: inline-block; }
